@@ -1,0 +1,47 @@
+header,
+footer {
+    background-color: #202020;
+    color: #ffffff;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.not500 {
+    text-decoration: line-through;
+}
+
+.view {
+    background-color: #880000;
+    color: #ffffff;
+    border-radius: 2px;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.view-onsale {
+    background-color: #127300;
+}
+
+.reviews {
+    background-color: #e8e8e8;
+}
+
+.guitar--lists {
+    background-color: #fbfbfb;
+}
+
+footer {
+    text-align: center;
+}
