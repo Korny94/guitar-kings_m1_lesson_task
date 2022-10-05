@@ -79,3 +79,12 @@ header li {
 footer {
     text-align: center;
 }
+
+/* Contact Page */
+
+input, 
+select,
+textarea {
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+} 
