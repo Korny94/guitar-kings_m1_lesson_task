@@ -13,6 +13,24 @@ h2,
     font-family: "Boots And Spurs", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.headerbg {
+    background-image: url("../images/home-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: bottom;
+    min-height: 70vh;
+}
+
+.ourguitars {
+    border-radius: 20%;
+}
+
+.bob, 
+.sally {
+    border-radius: 50%;
+}
+
 header,
 footer {
     background-color: #202020;
