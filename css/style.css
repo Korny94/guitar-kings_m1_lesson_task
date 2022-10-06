@@ -44,6 +44,7 @@ footer {
 header a {
     color: #ffffff;
     text-decoration: none;
+    padding: 15px;
 }
 
 header li {
@@ -62,13 +63,20 @@ header li {
 .view {
     background-color: #880000;
     color: #ffffff;
-    border-radius: 2px;
-    padding: 2px;
+    border-radius: 5px;
+    padding: 10px 80px;
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
 }
 
 .view-onsale {
     background-color: #127300;
+    padding: 10px 40px;
+}
+
+.view-small {
+    padding: 10px 50px;
 }
 
 .reviews {
