@@ -13,6 +13,10 @@ h2,
     font-family: "Boots And Spurs", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+nav ul {
+    padding: 0px;
+}
+
 .headerbg {
     background-image: url("../images/home-header.jpg");
     background-repeat: no-repeat;
