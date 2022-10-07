@@ -15,6 +15,17 @@ h2,
 
 nav ul {
     padding: 0px;
+    margin-left: 25px;
+}
+
+.ourguitarsmain {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.ourguitarsmain > * {
+    flex: 1;
 }
 
 .headerbg {
@@ -24,15 +35,29 @@ nav ul {
     background-position-x: right;
     background-position-y: bottom;
     min-height: 70vh;
+    position: relative;
+}
+
+.welcome {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    text-align: center;
 }
 
 .ourguitars {
     border-radius: 20%;
+    width: 90%;
 }
 
 .bob, 
 .sally {
     border-radius: 50%;
+}
+
+header {
+    display: flex;
+    align-items: center;
 }
 
 header,
